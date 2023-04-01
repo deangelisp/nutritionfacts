@@ -28,6 +28,17 @@ npm run dev
 
 4. Navigate to `http://localhost:3000` in your web browser to view the application.
 
+## Configuration
+
+Before running the application, you need to create a `.env` file in the root directory of the project and add the following line to it:
+
+```bash
+VITE_NINJAS_API_KEY=YOUR_API_KEY_HERE
+```
+
+Replace `YOUR_API_KEY_HERE` with your API key from https://api-ninjas.com. This step is necessary to authenticate your requests to the API.
+
+
 ## Usage
 
 The application allows users to search for nutrition facts by entering a food item name in the search bar. The application will display a list of matching items along with their nutrition facts. Users can click on an item to view more details about it.
