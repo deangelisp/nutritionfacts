@@ -12,6 +12,16 @@ dist
 dist-ssr
 *.local
 
+# React
+node_modules/
+build/
+dist/
+.env
+*.log
+.DS_Store
+yarn.lock
+
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
