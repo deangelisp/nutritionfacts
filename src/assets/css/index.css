@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*:focus {
+    outline: none;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #f3f3f3;
+}
+
+h1 {
+    font-size: 3.75rem; /* 60px */
+    line-height: 1;
+    font-weight: 700;
+}
+
+th {
+    font-weight: inherit;
+}
+
+.container {
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.root-screen {
+    padding-bottom: 30vh;
+}
+
+.text-2xs {
+    font-size: 0.625rem; /* 10px */
+}
+
+@media screen and (max-width: 640px) {
+    .root-screen {
+        padding-bottom: 0;
+    }
+}
